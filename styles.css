@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 
+background-color: #16222a;
+background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+
+button{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+.hide{
+    display: none;
+}
+
+.back-btn{
+    margin-bottom: 5px;
+}
+
+.search-box{
+    background: #2f3640;
+    height: 40px;
+    /* border-radius: 40px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    outline: none;
+    width: 100%;
+}
+
+ .flags{
+     width: 50px;
+ }
+
+ .top-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .bak-btn{
+    margin-top: 8px;
+}
+
+input[type=text]{
+    font-size: larger;
+    color: whitesmoke;
+}
+
+ 
+@media (min-width: 250px) and (max-width: 767px) {
+    .top-container{
+        display: block;
+        text-align: center;
+    }
+}
+
