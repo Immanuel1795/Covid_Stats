@@ -4,13 +4,7 @@ document.getElementById('forward-button').addEventListener('click', ()=>{
   window.location.href= "./world.html";
 })
 
-fetch("https://api.covid19india.org/data.json",{
-  method: "GET",
-  headers: {
-    'content-type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-  }
-})
+fetch("https://api.covid19india.org/data.json")
   .then((resp) => {
     return resp.json();
   })
