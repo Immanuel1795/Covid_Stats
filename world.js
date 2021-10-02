@@ -1,6 +1,3 @@
-document.getElementById('back-button').addEventListener('click', ()=>{
-    window.location.href = "./index.html"
-})
 
 fetch("https://disease.sh/v3/covid-19/all")
   .then((resp) => {
